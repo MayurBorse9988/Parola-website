@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parola, Maharashtra - A historical town known for its rich culture, agriculture, and geographical significance in the Jalna district.">
+    <title>Parola, Maharashtra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar {
+            background-color: #2c3e50;
+            padding: 15px 20px;
+        }
+        .navbar-brand, .nav-link {
+            color: #ecf0f1 !important;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #e74c3c !important;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .fact-card {
+            background-color: #8e44ad;
+            color: #fff;
+            border-radius: 15px;
+        }
+        .fact-card i {
+            color: #f39c12;
+        }
+        .btn-custom {
+            background-color: #e74c3c;
+            color: #fff;
+            border-radius: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #c0392b;
+            transform: scale(1.05);
+        }
+        .map {
+            width: 100%;
+            height: 400px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 30px 20px;
+            font-size: 14px;
+            border-top: 3px solid #e74c3c;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .about-section {
+            background: linear-gradient(to right, #f39c12, #f1c40f);
+            color: #fff;
+            padding: 50px 20px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Parola, Maharashtra</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="attraction.html">Attractions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="geography.html">Geography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <h1 class="display-4">Welcome to Parola</h1>
+        <p class="lead">A Historical Town in Maharashtra</p>
+        <a href="explore.html" class="btn btn-custom btn-lg">Explore More</a>
+    </div>
+
+    <!-- About Section -->
+    <div id="About" class="container my-5 about-section text-center">
+        <h2 class="mb-4">About Parola</h2>
+        <p>Parola is a town in the Jalgaon district of Maharashtra, known for its rich history and culture. It is famous for the Parola Fort and has various temples that reflect the architectural beauty of the region.</p>
+        
+        <!-- Map Section -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.1147815392976!2d76.56095301469069!3d19.838074986897067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd10a99d7a5b50f%3A0x4d6b1c89bc88ee1f!2sParola%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1631902262096!5m2!1sen!2sin" 
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Interesting Facts Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4" style="color: #3498db;">Interesting Facts</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mb-4 fact-card">
+                    <div class="card-body">
+                        <i class="fas fa-fort fa-3x mb-3"></i>
+                        <h5 class="card-title">Historical Fort</h5>
+                        <p class="card-text">Parola Fort dates back to the 14th century.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4 fact-card">
+                    <div class="card-body">
+                        <i class="fas fa-leaf fa-3x mb-3"></i>
+                        <h5 class="card-title">Agriculture Hub</h5>
+                        <p class="card-text">The town is known for its agriculture, particularly the cultivation of pulses and cotton.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4 fact-card">
+                    <div class="card-body">
+                        <i class="fas fa-festival fa-3x mb-3"></i>
+                        <h5 class="card-title">Cultural Festivals</h5>
+                        <p class="card-text">Parola hosts various cultural festivals that attract visitors from neighboring regions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Parola, Maharashtra. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
